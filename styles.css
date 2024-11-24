@@ -198,3 +198,38 @@ button:active {
 #name-input button:active {
   transform: scale(0.95);
 }
+
+#score-container {
+  display: flex; /* Layout flessibile */
+  flex-direction: row; /* Disposizione orizzontale */
+  justify-content: space-around; /* Spaziatura uniforme tra le sezioni */
+  align-items: center; /* Allinea verticalmente le sezioni */
+  margin: 20px 0; /* Spazio sopra e sotto il contenitore */
+  gap: 20px; /* Spazio tra i due elementi */
+}
+
+.score-section {
+  display: flex;
+  flex-direction: column; /* Elementi verticali all'interno di ogni sezione */
+  align-items: center; /* Centra gli elementi all'interno */
+  padding: 10px;
+  background-color: #f9f9f9; /* Sfondo chiaro per ogni sezione */
+  border-radius: 10px; /* Angoli arrotondati */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+  width: 150px; /* Larghezza fissa per ogni sezione */
+}
+
+.score-section h3 {
+  margin-bottom: 10px; /* Spazio tra il titolo e i pulsanti */
+}
+
+.score-btn {
+  margin: 5px 0; /* Spazio verticale tra i pulsanti */
+}
+
+@media (max-width: 600px) {
+  #score-container {
+    flex-direction: column; /* Disposizione verticale sui dispositivi stretti */
+    gap: 15px; /* Riduci lo spazio tra le sezioni */
+  }
+}
