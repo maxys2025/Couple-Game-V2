@@ -24,10 +24,6 @@ body {
   transition: transform 0.3s;
 }
 
-#container:hover {
-  transform: scale(1.02); /* Piccolo ingrandimento al passaggio del mouse */
-}
-
 h1 {
   font-size: 2.5em; /* Imposta la dimensione del font */
   color: #c493fd; /* Imposta il colore del testo */
