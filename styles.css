@@ -106,7 +106,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
   box-shadow: 0 5px 10px rgba(33, 150, 243, 0.2);
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 button:hover {
