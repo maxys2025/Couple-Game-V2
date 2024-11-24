@@ -144,3 +144,49 @@ button:active {
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5); /* Ombra decisa e scura */
   border-radius: 25px; /* Angoli arrotondati al passaggio del mouse */
 }
+
+#name-input {
+  display: flex;
+  flex-direction: column; /* Posiziona i figli in colonna */
+  align-items: center;
+  gap: 15px; /* Spazio tra input-container e pulsante */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row; /* Posiziona i due input affiancati */
+  gap: 10px; /* Spazio tra i due input */
+  width: 100%; /* Adatta gli input al contenitore */
+  justify-content: center; /* Centra i campi all'interno */
+}
+
+#name-input input {
+  width: 150px; /* Imposta la larghezza di ciascun input */
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#name-input button {
+  width: 150px; /* Pulsante centrato con larghezza specifica */
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #2196F3;
+  box-shadow: 0 5px 10px rgba(33, 150, 243, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#name-input button:hover {
+  background-color: #1E88E5;
+  transform: translateY(-2px);
+}
+
+#name-input button:active {
+  transform: scale(0.95);
+}
