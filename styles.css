@@ -54,6 +54,14 @@ h2 {
   margin-top: 0; /* Rimuovi il margine sopra il sottotitolo */
 }
 
+h3 {
+  font-size: 20px; /* Imposta la dimensione del font */
+  color: #121212; /* Imposta il colore del testo */
+  font-weight: bold; /* Rende il testo in grassetto */
+  text-align: center; /* Allinea il testo al centro */
+  margin-top: 0; /* Rimuovi il margine sopra il sottotitolo */
+}
+
 #question-box {
   font-size: 1.2em;
   margin: 20px;
