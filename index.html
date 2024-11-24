@@ -30,19 +30,22 @@
         <p id="question">La domanda apparirà qui.</p>
       </div>
 
-      <!-- Sezione per il punteggio di Lui -->
-      <div>
-        <h3><span id="label-him">Lui</span>: <span id="score-him" class="score-display">0</span></h3>
-        <button class="score-btn" onclick="updateScore('him', 1)">+1</button>
-        <button class="score-btn" onclick="updateScore('him', -1)">-1</button>
-      </div>
-      
-      <!-- Sezione per il punteggio di Lei -->
-      <div>
-        <h3><span id="label-her">Lei</span>: <span id="score-her" class="score-display">0</span></h3>
-        <button class="score-btn" onclick="updateScore('her', 1)">+1</button>
-        <button class="score-btn" onclick="updateScore('her', -1)">-1</button>
-      </div>
+  <!-- Sezione per i punteggi affiancati -->
+  <div id="score-container">
+  <!-- Sezione per il punteggio di Lui -->
+  <div class="score-section">
+    <h3><span id="label-him">Lui</span>: <span id="score-him" class="score-display">0</span></h3>
+    <button class="score-btn" onclick="updateScore('him', 1)">+1</button>
+    <button class="score-btn" onclick="updateScore('him', -1)">-1</button>
+  </div>
+
+  <!-- Sezione per il punteggio di Lei -->
+  <div class="score-section">
+    <h3><span id="label-her">Lei</span>: <span id="score-her" class="score-display">0</span></h3>
+    <button class="score-btn" onclick="updateScore('her', 1)">+1</button>
+    <button class="score-btn" onclick="updateScore('her', -1)">-1</button>
+  </div>
+</div>
 
       <!-- Pulsante per passare alla prossima domanda -->
       <button onclick="nextQuestion()">Prossima Domanda</button>
