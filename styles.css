@@ -84,13 +84,13 @@ h3 {
   border: none;
   border-radius: 8px;
   color: white;
-  background-color: #4CAF50;
+  background-color: #121212;
   box-shadow: 0 5px 10px rgba(76, 175, 80, 0.2);
   transition: background-color 0.3s, transform 0.2s;
 }
 
 .score-btn:hover {
-  background-color: #388E3C;
+  background-color: #1f1f1f;
   transform: translateY(-2px); /* Effetto sollevamento */
 }
 
@@ -101,7 +101,7 @@ h3 {
 .score-display {
   font-weight: bold;
   font-size: 1.5em;
-  color: #C493FD;
+  color: #121212;
 }
 
 button {
