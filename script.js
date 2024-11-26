@@ -124,10 +124,12 @@ function updateScore(player, amount) {
 
 function checkForWinner(player) {
   if (scores[player] >= goalScore) {
-    document.getElementById('question-box').innerHTML = `<h2>${document.getElementById(`label-${player}`).innerText} vince con ${goalScore} punti!</h2>`;
+    document.getElementById('question-box').innerHTML = 
+      `<h2 class="winner-message">${document.getElementById(`label-${player}`).innerText} vince con ${goalScore} punti!</h2>`;
     disableButtons();
   }
 }
+
 
 function disableButtons() {
   document.querySelectorAll('.score-btn').forEach(button => button.disabled = true);
