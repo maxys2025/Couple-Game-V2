@@ -227,7 +227,23 @@ button:active {
 
 @media (max-width: 600px) {
   #score-container {
-    flex-direction: column; /* Disposizione verticale sui dispositivi stretti */
-    gap: 15px; /* Riduci lo spazio tra le sezioni */
+    flex-direction: row; /* Mantieni l'allineamento orizzontale */
+    justify-content: space-evenly; /* Spaziatura uniforme */
+    gap: 10px; /* Riduci lo spazio tra le sezioni */
+  }
+
+  .score-section {
+    width: 100px; /* Riduci la larghezza delle sezioni */
+    padding: 5px; /* Riduci il padding */
+  }
+
+  .score-section h3 {
+    font-size: 16px; /* Riduci la dimensione del testo del titolo */
+    margin-bottom: 5px; /* Riduci lo spazio sotto il titolo */
+  }
+
+  .score-btn {
+    font-size: 0.9em; /* Riduci la dimensione del testo dei pulsanti */
+    padding: 8px 15px; /* Riduci il padding dei pulsanti */
   }
 }
