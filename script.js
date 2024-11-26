@@ -125,7 +125,7 @@ function updateScore(player, amount) {
 function checkForWinner(player) {
   if (scores[player] >= goalScore) {
     document.getElementById('question-box').innerHTML = 
-      `<h2 class="winner-message">${document.getElementById(`label-${player}`).innerText} vince con ${goalScore} punti!</h2>`;
+      `<h2 class="winner-message">${document.getElementById(`label-${player}`).innerText} vince!</h2>`;
     disableButtons();
   }
 }
