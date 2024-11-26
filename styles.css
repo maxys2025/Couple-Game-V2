@@ -247,3 +247,15 @@ button:active {
     padding: 8px 15px; /* Riduci il padding dei pulsanti */
   }
 }
+
+.winner-message {
+  font-size: 1.8em; /* Modifica la dimensione del testo */
+  color: #990000; /* Colore del testo */
+  font-weight: bold; /* Rende il testo in grassetto */
+  text-align: center; /* Centra il testo */
+  background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Sfondo sfumato */
+  padding: 15px; /* Spazio interno */
+  border-radius: 10px; /* Angoli arrotondati */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombra */
+  margin-top: 20px; /* Spazio sopra */
+}
