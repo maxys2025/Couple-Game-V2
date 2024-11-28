@@ -1,5 +1,5 @@
 let questions = [
-  { "question": "Qual è il miglior consiglio che tu abbia mai ricevuto?", "category": "Qual è" },
+{ "question": "Qual è il miglior consiglio che tu abbia mai ricevuto?", "category": "Qual è" },
 { "question": "Qual è la tua stagione preferita?", "category": "Qual è" },
 { "question": "Qual è la cosa che ti fa ridere di più?", "category": "Qual è" },
 { "question": "Qual è la tua canzone preferita?", "category": "Qual è" },
